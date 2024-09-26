@@ -1,0 +1,66 @@
+.pomodoro-container {
+    text-align: center;
+    color: teal;
+    font-family: "Chivo", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .custom-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid teal;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 200px;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .switch-option {
+    width: 50%;
+    padding: 10px;
+    color: teal;
+    font-family: "Chivo", sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .switch-option.active {
+    background-color: teal;
+    color: black;
+  }
+  
+  .timer {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: teal;
+    background-color: black;
+    border-radius: 20px;
+    font-family: "Chivo", sans-serif;
+    border: 1px solid teal;
+    transition: 0.5s ease;
+  }
+  
+  .buttons button:hover {
+    color: black;
+    background-color: teal;
+  }
+  
